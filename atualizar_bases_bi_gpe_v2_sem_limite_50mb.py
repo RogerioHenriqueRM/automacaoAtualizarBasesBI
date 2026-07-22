@@ -17,7 +17,7 @@ import time
  
 CAMINHO_VBS = False
  
-CAMINHO_VBS = r"C:\Users\rogerio.matos\Documents\28 - extração SAP\SAP_GPE_TODAS_TRANSACOES_v1.3.vbs"
+CAMINHO_VBS = r"C:\Users\rogerio.matos\Documents\28 - extração SAP\SAP_GPE_TODAS_TRANSACOES_v1.4.vbs"
 
 # Se a descoberta automatica nao encontrar a pasta sincronizada, preencha aqui.
 # Exemplo:
@@ -59,6 +59,11 @@ TRANSACOES = {
         "pasta_local": r"C:\Users\rogerio.matos\Documents\21 - atualizar bases bi\9 -  MB25",
         "nome_base": "MB25 ATUALIZADA",
         "pasta_sharepoint": "MB25"
+    },
+    "MI24": {
+        "pasta_local": r"C:\Users\rogerio.matos\Documents\21 - atualizar bases bi\3 - MI24",
+        "nome_base": "MI24 ATUALIZADA",
+        "pasta_sharepoint": "MI24"
     }
 }
 
